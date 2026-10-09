@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.6" fill="#F2F5EE" fill-opacity="0.10"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.3" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F2771A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F2771A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0D0B"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- mark -->
+  <g transform="translate(110 135) scale(1.0)" fill="#F2F5EE">
+    <rect x="80" y="67"  width="200" height="34"/>
+    <rect x="80" y="115" width="48"  height="34"/>
+    <rect x="80" y="163" width="48"  height="34" fill="#F2771A"/>
+    <rect x="80" y="211" width="48"  height="34"/>
+    <rect x="80" y="259" width="200" height="34"/>
+  </g>
+
+  <!-- divider -->
+  <rect x="470" y="200" width="2" height="230" fill="#F2771A"/>
+
+  <g font-family="Menlo, 'DejaVu Sans Mono', Consolas, monospace">
+    <text x="510" y="232" font-size="18" letter-spacing="6" fill="#F2771A">FREELANCE</text>
+    <text x="506" y="318" font-size="88" font-weight="700" fill="#F2F5EE">COLOSTACK</text>
+    <text x="510" y="368" font-size="26" fill="#F2F5EE" fill-opacity="0.85">Giovanni Colonni</text>
+    <text x="510" y="404" font-size="20" fill="#F2F5EE" fill-opacity="0.6">Software Engineer</text>
+    <rect x="735" y="392" width="7" height="7" fill="#F2771A"/>
+    <text x="758" y="404" font-size="20" fill="#F2F5EE" fill-opacity="0.6">AI Engineer</text>
+    <rect x="904" y="392" width="7" height="7" fill="#F2771A"/>
+    <text x="927" y="404" font-size="20" fill="#F2F5EE" fill-opacity="0.6">DevOps</text>
+    <text x="510" y="470" font-size="22" letter-spacing="8" fill="#F2F5EE">COMING SOON</text>
+    <text x="510" y="560" font-size="18" fill="#F2F5EE" fill-opacity="0.45"><tspan fill="#F2771A" fill-opacity="1">~</tspan>/colostack.dev</text>
+  </g>
+</svg>
