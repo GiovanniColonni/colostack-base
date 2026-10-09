@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+  <title>Colostack</title>
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="1.1" fill="#F2F5EE" fill-opacity="0.11"/>
+    </pattern>
+  </defs>
+  <rect width="360" height="360" fill="#0B0D0B"/>
+  <rect width="360" height="360" fill="url(#dots)"/>
+  <g fill="#F2F5EE">
+    <rect x="80" y="67"  width="200" height="34"/>
+    <rect x="80" y="115" width="48"  height="34"/>
+    <rect x="80" y="163" width="48"  height="34" fill="#F2771A"/>
+    <rect x="80" y="211" width="48"  height="34"/>
+    <rect x="80" y="259" width="200" height="34"/>
+  </g>
+</svg>
